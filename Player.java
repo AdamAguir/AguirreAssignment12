@@ -1,7 +1,5 @@
 /**
- *  @author: Adam Aguirre
- *  Assignment 11
- *  Date: 
+ * @author: Adam Aguirre Assignment 12 Date: 4/22/21
  */
 public class Player {
 
@@ -92,8 +90,8 @@ public class Player {
     
     @Override
     public String toString() {
-        return "Player:[fname: " + getfName() + ", lname: " + getlName() + ", shootPct:" + getShootPct() + 
+        return "Player: [fname: " + getfName() + ", lname: " + getlName() + ", shootPct:" + getShootPct() + 
                ", Rebounds:" + getRebounds() + ", Assists:" + getAssists() + ", Turn Overs:" + getTurnOvers() + 
-               ", Conference: " + getConference() + ", Position: " + getPosition() + ", Starter" + isStarter() + "]";
+               ", Conference: " + getConference() + ", Position: " + getPosition() + ", Starter" + isStarter() + "]\n";
     }
 }
