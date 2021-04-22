@@ -1,0 +1,10 @@
+John Stockton .516 19702 15792 4211 West 1 true
+Karl Malone .516 14760 5313 4575 West 4 true
+Ben Stillman .221 21 66 8 East 2 false
+Larry Bird	.589 20234 12343 43343 East 4 true
+Ben Wildman .221 34 35 6783 East 1 false
+Michael Jordan .533 22343 14424 5643 East 2 true
+Julius Erving .453 25343 12343 5465 East 3 true
+Shaquille O'Neal .434 19343 1232 3321 West 5 true
+Kobe Bryant .554 12435 13843 5454 West 2 true
+David Robinson .498 15486 8453 5453 West 5 true
