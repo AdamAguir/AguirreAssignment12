@@ -5,12 +5,12 @@ import javax.swing.JFrame;
 import javax.swing.JMenuBar;
 
 /**
- * @author: Adam Aguirre Assignment 11 Date:
+ * @author: Adam Aguirre Assignment 12 Date: 4/22/21
  */
 public class BBallGUI extends JFrame {
 
     public BBallGUI() throws FileNotFoundException {
-        setSize(450, 350);
+        setSize(1150, 450);
         setResizable(false);
         setTitle("My BBall Stats Program");
 
