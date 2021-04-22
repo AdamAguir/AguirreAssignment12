@@ -28,7 +28,7 @@ import javax.swing.border.Border;
 import javax.swing.filechooser.FileNameExtensionFilter;
 
 /**
- * @author: Adam Aguirre Assignment 11 Date: 4/20/21
+ * @author: Adam Aguirre Assignment 12 Date: 4/22/21
  */
 public class BBallPanel extends JPanel {
 
@@ -94,7 +94,7 @@ public class BBallPanel extends JPanel {
         setLayout(new BorderLayout());
         this.menu = menu;
         makeMenu();
-
+        //setSize(new Dimension(150,150));
         fNameLBL.setPreferredSize(new Dimension(120, 25));
         lNameLBL.setPreferredSize(new Dimension(120, 25));
         shootPctLBL.setPreferredSize(new Dimension(120, 25));
@@ -114,6 +114,7 @@ public class BBallPanel extends JPanel {
         add(panelCenter, BorderLayout.CENTER);
         add(panelSouth, BorderLayout.SOUTH);
         add(panelWest, BorderLayout.WEST);
+        add(new EastPanel(players), BorderLayout.EAST);
 
         buttonGroup.add(eastRB);
         buttonGroup.add(westRB);
